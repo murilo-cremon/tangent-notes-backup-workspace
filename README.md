@@ -24,9 +24,12 @@ On **Fedora** (or other RPM-based Linux distros), install it with:
 
 ```bash
 sudo dnf install rclone
+```
 
 ## 🚀 How to Use
 
-1. Run command bellow:
+1. Run commands bellow:
 ```bash
-chmod +x backup_tanget_notes.sh && ./backup_tanget_notes.sh
+chmod +x backup_tanget_notes.sh
+./backup_tanget_notes.sh
+```
