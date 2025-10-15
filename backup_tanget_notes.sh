@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 set -e
 
-ORIGIN="/home/$USER"
-FOLDER="workspace_tangent"
-DRIVE="my_drive:bkp_tangent"
+ORIGIN=$(xdg-user-dir DOCUMENTS)
+FOLDER="workspace"
+DRIVE="my_drive:bkp_notes"
 DATE=$(date +%Y-%m-%d_%H-%M)
 BKP_FILE="/tmp/backup_${FOLDER}_$DATE.tar.gz"
 
