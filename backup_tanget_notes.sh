@@ -3,7 +3,7 @@ set -e
 
 ORIGIN=$(xdg-user-dir DOCUMENTS)
 FOLDER="workspace"
-DRIVE="my_drive:bkp_notes"
+DRIVE="my_drive:backups/bkp_notes"
 DATE=$(date +%Y-%m-%d_%H-%M)
 BKP_FILE="/tmp/backup_${FOLDER}_$DATE.tar.gz"
 
